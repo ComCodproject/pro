@@ -9,7 +9,53 @@ header{
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
+    margin-top: -15px;
 }
 #sign-in{
     margin-right: 20px;
+}
+.navbar{
+    font-family: sans-serif;
+}
+.menuitem{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+.lst-item{
+    margin: 0px 90px; 
+}
+.clearfix{
+    clear: both;
+}
+.imgslide {
+    margin-top: 10px;
+    padding: 5px;
+    position: absolute; 
+}
+.imgslide img{
+    width: 100%;
+    height: 500px;
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top:430px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 230px;
+    height: 270px;
+    border: 2px solid blue;
+    position: relative;
+    margin: 0px 70px;
+    background-color: blue;
+} 
+
+}
+#card1{
+    border: 5px solid red;
 }
