@@ -11,7 +11,7 @@ header {
     position: fixed;
 }
 
-.icon>h2 {
+.icon h2 {
     padding-top: 10px;
 }
 
@@ -43,7 +43,7 @@ header {
     margin: -30px 95px;
 }
 
-.lst-item>a {
+.lst-item a {
     text-decoration: none;
     color: #000000;
     font-family: sans-serif;
@@ -74,7 +74,7 @@ header {
     width: 230px;
     height: 270px;
     box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
-    position: relative;
+    position: inherit;
     margin: 0px 70px;
     background-color: ivory;
 }
