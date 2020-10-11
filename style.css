@@ -3,36 +3,54 @@
     box-sizing: border-box;
 }
 header{
-    border: 2px solid red;
+    width: 100%;
+    background-color: burlywood;
+    height: 50px;
+    position: fixed;
+}
+.icon > h2{
+    padding-top: 10px;
 }
 .btn{
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
-    margin-top: -15px;
+    margin-top: -20px;
 }
 #sign-in{
     margin-right: 20px;
 }
 .navbar{
     font-family: sans-serif;
+    padding-top: 95px;
+    height: 40px;
+    box-shadow: 2px 5px 24px rgba(0,0,0,0.1);
+
 }
 .menuitem{
     list-style-type: none;
     display: flex;
     justify-content: center;
-
 }
 .lst-item{
-    margin: 0px 90px; 
+    margin:-30px 95px; 
+}
+.lst-item >a{
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 1.2vw;
 }
 .clearfix{
     clear: both;
 }
+.body{
+    padding: 5px;
+    background-color:#EEEEEE;
+    margin-top: 10px;
+}
 .imgslide {
     margin-top: 10px;
-    padding: 5px;
-    position: absolute; 
 }
 .imgslide img{
     width: 100%;
@@ -42,20 +60,15 @@ header{
     display: flex;
     width: 100%;
     height: auto;
-    margin-top:430px;
+    margin-top:-100px;
     justify-content: center;
     align-items: center;
 }
 .card{
     width: 230px;
     height: 270px;
-    border: 2px solid blue;
+    box-shadow: 2px 5px 24px rgba(0,0,0,0.1);   
     position: relative;
     margin: 0px 70px;
-    background-color: blue;
-} 
-
-}
-#card1{
-    border: 5px solid red;
+    background-color: ivory;
 }
