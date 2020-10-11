@@ -1,100 +1,144 @@
-*{
-    margin: 0px;padding: 0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-header{
+
+header {
     width: 100%;
     background-color: burlywood;
     height: 50px;
     position: fixed;
 }
-.icon > h2{
+
+.icon>h2 {
     padding-top: 10px;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
     margin-top: -20px;
 }
-#sign-in{
+
+#sign-in {
     margin-right: 20px;
 }
-.navbar{
+
+.navbar {
     font-family: sans-serif;
     padding-top: 95px;
     height: 40px;
-    box-shadow: 2px 5px 24px rgba(0,0,0,0.1);
+    box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
 }
-.menuitem{
+
+.menuitem {
     list-style-type: none;
     display: flex;
     justify-content: center;
 }
-.lst-item{
-    margin:-30px 95px; 
+
+.lst-item {
+    margin: -30px 95px;
 }
-.lst-item >a{
+
+.lst-item>a {
     text-decoration: none;
     color: #000000;
     font-family: sans-serif;
     font-size: 1.2vw;
 }
-.clearfix{
+
+.clearfix {
     clear: both;
 }
-.body{
+
+.body {
     padding: 5px;
-    background-color:ivory;
-    margin-top:px;
-    box-shadow: 2px 3px 10px rgba(0,0,0,0.2);
+    background-color: ivory;
+    margin-top: px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
 }
-.card-container{
+
+.card-container {
     display: flex;
     width: 100%;
     height: auto;
-    margin-top:-100px;
+    margin-top: -100px;
     justify-content: center;
     align-items: center;
 }
-.card{
+
+.card {
     width: 230px;
     height: 270px;
-    box-shadow: 2px 5px 24px rgba(0,0,0,0.1);   
+    box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
     position: relative;
     margin: 0px 70px;
     background-color: ivory;
 }
-footer{
+
+
+/* Course Section */
+
+.course-H {
+    text-align: center;
+    height: 70px;
+    margin: 50px;
+}
+
+.course-container {
+    border: 2px solid blueviolet;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+}
+
+.course-card {
+    border: 2px solid red;
+    height: 280px;
+    width: 252px;
+    margin: 20px
+}
+
+
+/* footer */
+
+footer {
     margin-top: 10px;
     padding-top: 10px;
     display: flex;
-    background-color:gray;
+    background-color: gray;
     color: #ffffff;
 }
-.footerbox{
-    width:25%;
+
+.footerbox {
+    width: 25%;
     text-align: center;
-    
 }
-.footer-list{
+
+.footer-list {
     margin-top: 10px;
 }
-.footer-list li{
+
+.footer-list li {
     list-style-type: none;
     line-height: 1.4;
 }
-.footer-list li a{
+
+.footer-list li a {
     text-decoration: none;
     color: #ffffff;
 }
-.copy{
+
+.copy {
     background-color: #000000;
     text-align: center;
     width: 100%;
 }
-.copy p{
+
+.copy p {
     padding: 5px;
     color: #ffffff;
 }
-
