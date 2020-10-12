@@ -2,17 +2,17 @@ var i = 0;
 var images = [];
 var time = 3000;
 
-images[0] = "img/slide1.png";
-images[1] = "img/slide2.png";
-images[2] = "img/res.jpg";
+images[0] = "img/1.png";
+images[1] = "img/2.png";
+images[2] = "img/3.png";
+images[3] = "img/4.png";
 
-function changeImg(){
+function changeImg() {
     document.slide.src = images[i];
-    
-    if(i < images.length - 1){
+
+    if (i < images.length - 1) {
         i++;
-    }
-    else{
+    } else {
         i = 0;
     }
     setTimeout("changeImg()", time)
