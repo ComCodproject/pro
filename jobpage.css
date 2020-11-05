@@ -1,0 +1,302 @@
+#jobTemplate img {
+    width: 100%;
+    opacity: 60%;
+}
+
+
+/* JON SEARCH BAR start */
+
+#job-Search-bar {
+    background: url("img/jobtemplate.png") no-repeat center 0%;
+    padding: 22% 0% 10% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -moz-linear-gradient(black);
+}
+
+.search-bar-element {
+    justify-content: center;
+    padding: 10px;
+}
+
+#Location {
+    padding: 8px 60px;
+    margin: -1px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    background: #fdbbb0;
+    font-size: 1.1rem;
+}
+
+#Catagory {
+    padding: 8px 60px;
+    margin: -1px;
+    border: none;
+    background: #fdbbb0;
+    font-size: 1.1rem;
+}
+
+#search-bar {
+    border: chocolate;
+    padding: 8px 0px;
+    width: 17rem;
+    margin: 0px -1px 0px -1px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#search-btn {
+    font-size: 1.1rem;
+    border-radius: 0px 10px 10px 0px;
+    background: #fdbbb0;
+    padding: 8px 43px;
+    margin: -1px;
+    border: none;
+}
+
+
+/* JON SEARCH BAR End  */
+
+.job-grid-container {
+    display: grid;
+    width: 100%;
+    padding: 5px;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.job-grid-item {
+    margin: 19px;
+    align-items: center;
+    text-align: center;
+    padding: 7px;
+    box-shadow: 0px 3px 7px #a4a3a3cf;
+    border-radius: 12px;
+}
+
+.calagory-element {
+    border-top: 1px solid #c5c3c3;
+    margin: 2px;
+    padding: 3px;
+    text-align: center;
+}
+
+#job-Catagory-card {
+    background-color: #ffd4a9;
+    box-shadow: 0px 3px 7px #a4a3a39c;
+    margin-top: 20px;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+#job-Catagory-card h4 {
+    text-align: center;
+    margin: revert;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+#gov-job-card {
+    /* background-color: #bfffc1; */
+}
+
+#pvt-job-card {
+    /* background-color: #c8eeff; */
+}
+
+.meta-card {
+    box-shadow: 0px 0px 7px #a4a3a39c;
+    margin: 21px 2px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#Admit-card {
+    background-color: cornflowerblue;
+}
+
+#syllabus-card {
+    background-color: #ffd862
+}
+
+#result-card {
+    background-color: #ff695e;
+}
+
+.job-element {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+    align-items: center;
+    padding: 2px;
+    margin: inherit;
+    margin: 10px;
+    box-shadow: 0px 1px 5px #8d8d8d;
+    border-radius: 8px;
+}
+
+.job-grid-item h3 {
+    height: 34px;
+    margin: 15px;
+}
+
+.job-element img {
+    height: 8vh;
+    padding: 9px;
+}
+
+.job-element p {}
+
+@media screen and (max-width:600px) {
+    .job-grid-container {
+        grid-template-columns: 1fr;
+    }
+    #job-Search-bar {
+        background: url("img/jobtemplate.png") no-repeat center 0%;
+        padding: 76% 1% 9% 14%;
+    }
+    #Location {
+        padding: 11px 95.7px;
+        border-radius: 20px 20px 0px 10px
+    }
+    #Catagory {
+        padding: 9px 70px;
+    }
+    #search-bar {
+        width: 16rem;
+    }
+    #search-btn {
+        border-radius: 0px 0px 10px 10px;
+        background: #995cfe;
+        padding: 10px 102px;
+    }
+}
+
+
+/* contact page css */
+
+#contact-section {
+    background: linear-gradient(rgba(255, 204, 85, 0.726), rgba(255, 255, 255, 0.9));
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+#contact-section .container-contact h2 {
+    text-align: center;
+    text-decoration: underline red;
+    text-underline-position: under;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+#contact-section .container-contact p {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 3%;
+    color: rgb(3, 0, 0);
+    letter-spacing: 3px;
+    font-size: 1.5vw;
+    ;
+}
+
+.contact-form i.fa {
+    font-size: 22px;
+    padding: 3%;
+    background-color: none;
+    border-radius: 80%;
+    margin: 2%;
+    cursor: pointer;
+    border: 2px solid rgb(190, 190, 190);
+    color: rgb(0, 0, 0);
+}
+
+.contact-form i.fa:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.form-info {
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-left: 8px solid steelblue;
+    outline: none;
+    box-shadow: 0px 2px 7px #b5b5;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    color: rgb(36, 3, 3);
+    border: none;
+    box-shadow: 0px 2px 7px #b5b5;
+}
+
+.submit-con {
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid rgb(8, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.submit-con:hover {
+    background-color: blueviolet;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.team-card img {
+    height: 12vw;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-team {
+    text-align: center;
+    font-size: 2vw;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.team-card p {
+    padding: 20px;
+    text-align: center;
+}

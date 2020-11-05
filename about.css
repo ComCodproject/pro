@@ -1,0 +1,157 @@
+.story-section {
+    padding: 20px;
+}
+
+.story-section h1 {
+    text-align: center;
+    font-size: 2vw;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.story-section p {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.team-card {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: darkgrey 0px 0px 12px;
+    margin: 10px;
+}
+
+
+/* contact page css */
+
+#contact-section {
+    background: linear-gradient(rgba(255, 204, 85, 0.726), rgba(255, 255, 255, 0.9));
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+#contact-section .container-contact h2 {
+    text-align: center;
+    text-decoration: underline red;
+    text-underline-position: under;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+#contact-section .container-contact p {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 3%;
+    color: rgb(3, 0, 0);
+    letter-spacing: 3px;
+    font-size: 1.5vw;
+    ;
+}
+
+.contact-form i.fa {
+    font-size: 22px;
+    padding: 3%;
+    background-color: none;
+    border-radius: 80%;
+    margin: 2%;
+    cursor: pointer;
+    border: 2px solid rgb(190, 190, 190);
+    color: rgb(0, 0, 0);
+}
+
+.contact-form i.fa:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.form-info {
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-left: 8px solid steelblue;
+    outline: none;
+    box-shadow: 0px 2px 7px #b5b5;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    color: rgb(36, 3, 3);
+    border: none;
+    box-shadow: 0px 2px 7px #b5b5;
+}
+
+.submit-con {
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid rgb(8, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.submit-con:hover {
+    background-color: blueviolet;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.team-card img {
+    height: 12vw;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-team {
+    text-align: center;
+    font-size: 2vw;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.team-card p {
+    padding: 20px;
+    text-align: center;
+}

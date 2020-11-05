@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:600px)" href="responsiveCode.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>ComCod</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+
+            <div class="ml" id="ml">
+                <span class="menulines" onclick="opennav()">&#9776</span>
+            </div>
+
+            <form action="#" method="post">
+                <span class="icon">
+                    <img src="img/logo.png" alt="logo">
+                </span>
+                <div class="btn">
+                    <div id="sign-in">
+                        <input type="button" value="sign-up" name="sign-up">
+                    </div>
+                    <div id="sign-in">
+                        <input type="button" value="Login" name="Login">
+                    </div>
+                </div>
+
+                <div class="clearfx"></div>
+
+            </form>
+
+        </header>
+        <div class="navbar" id="navbar1">
+            <ul class="menuitem">
+                <li class="lst-item" id="lst1-item"><a href="index.html">Home</a></li>
+                <li class="lst-item" id="lst-item"><a href="courses.html" onclick="clickcourses()" onclick="clickon()">Courses &nbsp <i class="fa fa-caret-down" id="in"></i></a>
+                    <ul id="course-item">
+                        <li><a href="courses.html">Course1</a></li>
+                        <li><a href="courses.html">Course2</a></li>
+                        <li><a href="courses.html">Course3</a></li>
+                        <li><a href="courses.html">Course4</a></li>
+                        <li><a href="courses.html">Course5</a></li>
+                    </ul>
+                </li>
+                <li class="lst-item" id="ls-item"><a href="job-portal.html">Jobs &nbsp<i class="fa fa-caret-down"></i></a>
+                    <ul style="display: none" ; id="job-item">
+                        <li><a href="job-portal.html">Course1</a></li>
+                        <li><a href="job-portal.html">Course2</a></li>
+                        <li><a href="job-portal.html">Course3</a></li>
+                        <li><a href="job-portal.html">Course4</a></li>
+                    </ul>
+                </li>
+                <li class="lst-item"><a href="about.html">About</a></li>
+                <li class="lst-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="clearfx"></div>
+        <!--It is complete body-->
+        <div class="body">
+            <div class="imgslide" id="imgslide">
+                <img name="slide" width="100%" ; height="500px" ; alt="slide1">
+            </div>
+
+            <!-- information card start  -->
+
+            <div class="card-container" id="card-container">
+                <div class="card" id="card1">
+                    <img src="img/job icon.png" alt="Our Courses">
+                    <h3 id="card1-h">Desigerable job</h3>
+                    <p id="card1-p">Choose a job you love,and you will never have to work a day in your life.</p>
+                </div>
+                <div class="card" id="card1">
+                    <img src="img/Courese icon.png" alt="Our Courses">
+                    <h3 id="card2-h">Learn the Latest Skills</h3>
+                    <p id="card2-p">Learning is an experience Everything else is just information.</p>
+                </div>
+                <div class="card" id="card1">
+                    <img src="img/Notes icon.png" alt="Our Courses">
+                    <h3 id="card3-h">Proper Notes</h3>
+                    <p id="card3-p">Meke yourself a priority.At the end of the day, you're your longest commitment.</p>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+            <!-- information card End  -->
+            <section class="Courses-section">
+                <div class="course-H">
+                    <h1>Most Populer Courses</h1>
+                    <p>There are a lot of caurces according to your profession. You can learn with us and <br> explor or grap more useful skills that make you diffrernt from others</p>
+
+                </div>
+                <div class="course-container" id="cs-container">
+                    <div class="course-card" id="cs-card">
+                        <img src="img/c.jpg" alt="C programming">
+                        <h2>C course</h2>
+                        <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
+                        <input href="course.html" type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card" id="cs-card">
+                        <img src="img/php.png" alt="php">
+                        <h2>Php</h2>
+                        <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card" id="cs-card">
+                        <img src="img/python.png" alt="Python">
+                        <h2>Python</h2>
+                        <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card" id="cs-card">
+                        <img src="img/Pyhon Advance.jpg" alt="Pyhon Advance">
+                        <h2>Python Advance</h2>
+                        <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card" id="cs-card">
+                        <img src="img/core C.png" alt="core C">
+                        <h2>Core c</h2>
+                        <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card" id="cs-card">
+                        <img src="img/java.png" alt="java">
+                        <h2>Java</h2>
+                        <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card" id="cs-card">
+                        <img src="img/Pyhon Advance.jpg" alt="Pyhon Advance">
+                        <h2>Python Advance</h2>
+                        <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+                    <div class="course-card" id="cs-card">
+                        <img src="img/core C.png" alt="core C">
+                        <h2>Core c</h2>
+                        <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
+                        <input type="button" value="See more.." name="See more..">
+                    </div>
+
+                </div>
+            </section>
+
+
+            <div class="new2021" id="new2021">
+                <img src="img/ComCod_template1.png" alt="2021" class="c2021">
+            </div>
+
+
+            <!-- Jon section Start -->
+            <section class="job-section" id="job-section">
+                <div class="job-card" id="job-card1">
+                    <img src="img/job.png" alt="Job-template" class="job-icon">
+                </div>
+                <div class="job-card job-detail" id="job-card1">
+                    <h2>Find Jobs</h2>
+                    <p>If you want to live your life in a creative way, as an artist, you have to not look back too much. You have to be willing to take whatever you’ve done and whoever you were and throw them away. The more the outside world tries to reinforce
+                        an image of you, the harder it is to continue to be an artist, which is why a lot of times, artists have to say, “Bye. I have to go. I’m going crazy and I’m getting out of here.”
+                    </p>
+                    <input class="Notes-btn job-btn" type="button" value="Explor Job" name="Explor job">
+
+                </div>
+            </section>
+
+
+            <!-- Jon section End -->
+
+            <!-- notes-section Start  -->
+
+            <section class="job-section Notes-section">
+                <div class="job-card job-detail" id="job-card1">
+                    <h2>Subject Notes</h2>
+                    <p>When you first start off trying to solve a problem, the first solutions you come up with are very complex, and most people stop there. But if you keep going, and live with the problem and peel more layers of the onion off, you can
+                        oftentimes arrive at some very elegant and simple solutions. Most people just don’t put in the time or energy to get there. We believe that customers are smart, and want objects which are well thought through.
+                    </p>
+                    <input class="Notes-btn job-btn" type="button" value="Get Notes" name="Get Notes">
+
+                </div>
+                <div class="job-card" id="job-card3">
+                    <img src="img/Notes.png" alt="Job-template" class="job-icon">
+                </div>
+            </section>
+
+            <!-- notes-section End  -->
+
+            <!--Subject Detals-->
+            <div class="sub-detail" id="sub-detail">
+                <div class="sub-heading" id="sub-heading">
+                    <h1>Technical Courses</h1>
+                    <p>All type of technical courses are available now.</p>
+                    <!-- <p>Course About<br>Course About<br>Course About<br>Course About<br></p> -->
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <!--Subject Detals/end-->
+
+            <!-- subject section start  -->
+
+            <section class="Subject-section">
+                <div class="subjects">
+                    <div class="subject-card">
+                        <img src="img/ML icon.png" alt="Machine Learning">
+                        <h4>ML</h4>
+
+                    </div>
+                    <div class="subject-card">
+                        <img src="img/CD icon.png" alt="Compiler-Design">
+                        <h4>Compile</h4>
+
+                    </div>
+                    <div class="subject-card">
+                        <img src="img/CN icon.png" alt="Computer Network">
+                        <h4>Network</h4>
+
+                    </div>
+                    <div class="subject-card">
+                        <img src="img/DBMS icon.png" alt="DBMS">
+                        <h4>Database</h4>
+
+                    </div>
+                    <div class="subject-card">
+                        <img src="img/DS icon.png" alt="data Structure">
+                        <h4>DSA</h4>
+
+                    </div>
+                    <div class="subject-card" id="more-btn">more</div>
+
+                </div>
+                <div class="clearfix"></div>
+            </section>
+
+            <!-- subject section End  -->
+
+            <svg class="wave" id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path  d="M0,160L34.3,165.3C68.6,171,137,181,206,208C274.3,235,343,277,411,277.3C480,277,549,235,617,229.3C685.7,224,754,256,823,229.3C891.4,203,960,117,1029,112C1097.1,107,1166,181,1234,197.3C1302.9,213,1371,171,1406,149.3L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+            <footer id="footer">
+                <div class=" footerbox footer-part-1" id="footer-part1">
+                    <img src="img/logo.png" alt="comcod">
+                    <h3>About</h3>
+                    <p>Muzaffarnagar (UP).India</p>
+                    <div id="footer-part1">
+                        <h3>Contact us</h3>
+                        <p>XXXXXXXXXXX</p>
+                        <p>comcod@gmail.com</p>
+                    </div>
+
+
+                </div>
+                <div class="footerbox footer-part-2" id="footer-part2">
+                    <h3>Services</h3>
+                    <ul class="footer-list" id="footer-list">
+
+                        <li class="footer-item"><a href="#">All Courses</a></li>
+                        <li class="footer-item"><a href="#">Gaverment jobs</a></li>
+                        <li class="footer-item"><a href="#">Privat Jobs</a></li>
+                        <li class="footer-item"><a href="#">PDF Notes</a></li>
+                        <li class="footer-item"><a href="#">Course Copens</a></li>
+                    </ul>
+                </div>
+                <div class="footerbox footer-part-3" id="footer-part3">
+                    <h3>HelpFul Links</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">Supports</a></li>
+                        <li class="footer-item"><a href="#">Licence</a></li>
+                        <li class="footer-item"><a href="#">Term & Conditions</a></li>
+                        <li class="footer-item"><a href="#">Privacy Poilcy</a></li>
+                    </ul>
+                </div>
+                <div class="footerbox footer-part-4" id="footer-part4">
+
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">Search more information</a></li>
+                        <input type="Entry" placeholder="Input Search">
+                        <button>Search</button>
+                    </ul>
+                </div>
+
+            </footer>
+            <div class="copy">
+                <p>Copyright &copy; 2020. All Right Reserved by ComCod</p>
+            </div>
+        </div>
+        <!--Body Close-->
+    </div>
+    <!--Container-close-->
+</body>
+<script src="script.js"></script>
+
+</html>

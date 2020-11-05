@@ -1,0 +1,740 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.icon img {
+    height: 29px;
+    position: fixed;
+    margin-left: 46px;
+    margin-top: -1px;
+}
+
+.header {
+    width: 100%;
+    box-shadow: 0px 2px 7px #b5b5;
+    background-color: rgb(255 255 240);
+    height: 65px;
+    position: fixed;
+    background-color: #ffffff
+}
+
+.ml span {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.icon>h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #000000;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: -28px;
+}
+
+.btn div input {
+    margin: -2px 1px;
+    padding: 6px 40px;
+    position: arelative;
+    background-color: #f99977;
+    border-radius: 6px;
+    box-shadow: #f9997773 0px 1px 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#sign-in {
+    margin-right: 20px;
+}
+
+
+/* header responsive end*/
+
+.navbar {
+    width: 100%;
+    font-family: sans-serif;
+    padding-top: 120px;
+    margin-top: 0px;
+    height: 40px;
+    box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
+}
+
+.menuitem {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.lst-item {
+    font-family: sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.lst-item>a {
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 1.2vw;
+}
+
+.lst-item>ul {
+    padding: 10px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: ivory;
+    display: none;
+}
+
+.lst-item>ul>li {
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.lst-item>ul>li>a {
+    text-decoration: none;
+    color: blue
+}
+
+.lst-item>ul>li:hover {
+    background-color: lightgray;
+}
+
+.lst-item:hover>a>i {
+    transform: rotate(-180deg);
+}
+
+.clearfix {
+    clear: both;
+}
+
+.body {
+    overflow: hidden;
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+    background-color: ivory;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* information card sestion End */
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    height: auto;
+    padding-left: 140px;
+    margin-top: -7.320vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    overflow: hidden;
+    width: 66%;
+    height: 17.203vw;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    background-color: ivory;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    height: 5.124vw;
+    margin: 1.4vw auto;
+}
+
+.card h3 {
+    font-size: 1.4vw;
+    text-transform: capitalize;
+}
+
+.card p {
+    height: fit-content;
+    margin: 4% 13%;
+    font-size: 1.2vw;
+}
+
+#card1-h {
+    color: #a630ff;
+}
+
+#card1-p {
+    color: #af3fff;
+}
+
+#card2-h {
+    color: #fd4288;
+}
+
+#card2-p {
+    color: #fe7e8a;
+}
+
+#card3-h {
+    color: #fd6207;
+}
+
+#card3-p {
+    color: #fe8f00;
+}
+
+
+/* information card sestion End */
+
+
+/* Course Section */
+
+.course-H {
+    text-align: center;
+    margin: 65px;
+}
+
+.course-H h1 {
+    font-size: 1.8vw;
+    color: #632b2b;
+}
+
+.course-H p {
+    padding: 1.098vw;
+    font-size: 1.3vw;
+    color: #632b2b;
+}
+
+.course-card {
+    box-shadow: rgb(174, 172, 172) 0px 0px 10px;
+    background-color: white;
+    height: 280px;
+    width: 252px;
+    margin: 20px 43px;
+}
+
+.course-container div img {
+    height: auto;
+    width: inherit;
+    /* margin: 0px; */
+}
+
+.course-container div h2 {
+    margin: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.course-container div input {
+    border: none;
+    background-color: #2196F3;
+    border-radius: 4px;
+    margin: 11px 28px;
+    padding: 5px 69px;
+    cursor: pointer;
+}
+
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+@media screen and (max-width:1280px) {
+    .course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .imgslide img {
+        height: 50vw;
+    }
+    .course-H h1 {
+        font-size: 3vw;
+    }
+    .course-H p {
+        font-size: 2vw;
+    }
+}
+
+#cs-card p {
+    font-size: small;
+    margin: 0px 25px;
+    /* box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1); */
+    padding: 5px;
+}
+
+#cs-card p>ins {
+    color: green;
+}
+
+
+/* Course Section End*/
+
+
+/* job section start */
+
+.new2021>img {
+    width: 100%;
+    height: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.job-section {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10.980vw 8.784vw;
+}
+
+.job-card {
+    padding: 20px;
+}
+
+.job-detail {
+    background-color: white;
+    box-shadow: 0px 0px 4px rgb(174, 172, 172);
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.job-card img {
+    margin-top: 10px;
+    height: 30vw;
+    width: auto;
+}
+
+.job-detail h2 {
+    color: #f99977;
+    font-size: 2.4vw;
+    margin: auto;
+    text-align: center;
+}
+
+.job-detail p {
+    font-size: 1.2vw;
+    color: chocolate;
+    margin: revert;
+    text-align: center;
+}
+
+.job-btn {
+    margin: 1.8vw;
+    padding: 1.098vw 1.390vw;
+    font-size: 1vw;
+    background-color: #f99977;
+    border-radius: 6px;
+    box-shadow: #f9997773 0px 1px 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* job section end */
+
+
+/* notes Section start  */
+
+.Notes-section {
+    padding-top: 70px;
+}
+
+.Notes-section img {
+    margin-left: 9.516vw;
+}
+
+
+/* notes Section end */
+
+
+/*subject details*/
+
+.sub-detail {
+    width: 100%;
+    height: 155px;
+    box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
+    border-left: 8px solid steelblue;
+    margin-bottom: 50px;
+}
+
+.sub-heading>h1 {
+    display: inline-block;
+    border-bottom: 5px solid red;
+    margin-left: 40%;
+}
+
+.sub-heading>p {
+    padding: 10px;
+    background-color: rgb(207, 203, 203);
+    margin: 20px 0px 0px 0px;
+}
+
+
+/* subject section start  */
+
+.Subject-section {
+    margin-bottom: 50px;
+}
+
+.subjects {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: -10px;
+    height: 142px;
+    text-align: center;
+}
+
+.subject-card {
+    margin: 8px 10px;
+    box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.subject-card img {
+    width: inherit;
+    height: 50px;
+    margin: 15px;
+}
+
+#more-btn {
+    margin: 40px;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #5e75f7;
+    box-shadow: #6578e0e0 0px 1px 4px;
+    color: white;
+    cursor: pointer;
+    padding: 14px;
+}
+
+.subject-card:hover {
+    transform: scale(1.1);
+}
+
+
+/* subject section End  */
+
+
+/* footer section start  */
+
+.footer-top {
+    font-family: sans-serif;
+    font-size: 1vw;
+    height: 300px;
+    box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
+}
+
+.wave {
+    margin: -25px auto;
+    fill: #ffd4a9;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #ffd4a9;
+    margin-top: -1px;
+    padding-top: 10px;
+    color: #524943;
+}
+
+.footer-part-1 {
+    display: grid;
+    padding: 0px 40px;
+}
+
+.footer-part-1 img {
+    height: 50px;
+    margin: 20px 0px;
+}
+
+.footerbox h3 {
+    margin: 10px 0px;
+    color: #ff914d;
+}
+
+.footer-part-4 {
+    padding: 80px 50px;
+}
+
+.footer-part-4 input {
+    margin: 11px 0px;
+    height: 32px;
+    width: 194px;
+    border-radius: 6px;
+    border-style: none;
+    padding: 10px;
+}
+
+.footer-part-3,
+.footer-part-2 {
+    padding: 50px 55px;
+}
+
+.footer-part-4 button {
+    height: 22px;
+    width: 126px;
+    border-radius: 6px;
+    border-style: none;
+    color: white;
+    background-color: #ff914d;
+    margin: 2px 0px
+}
+
+.footer-part-4 .footer-list {
+    margin-top: 10px;
+}
+
+.footer-list li {
+    list-style-type: none;
+    line-height: 1.8;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: #524943;
+}
+
+
+/* copy right section  */
+
+.copy {
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+.copy p {
+    padding: 5px;
+    color: #ffffff;
+}
+
+#new2021>.c2021 {
+    width: 100%;
+    height: 25vw;
+    margin-top: 10.248vw;
+    border-radius: 1.464vw;
+}
+
+
+/* subject section */
+
+.subjects {
+    overflow-x: auto;
+}
+
+.subjects::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/* subject details */
+
+#sub-detail {
+    height: 120px;
+}
+
+#sub-heading h1 {
+    margin-left: 120px;
+    font-size: 4vw;
+}
+
+@media screen and (max-width:600px) {
+    /* navbar  */
+    #navbar1 {
+        padding-top: 100px;
+    }
+    .lst-item>a {
+        font-size: 3.2vw;
+    }
+    .imgslide img {
+        height: 52vw;
+    }
+    #card-container {
+        margin-top: -12vw;
+        padding-left: 1%;
+    }
+    .card {
+        padding: 0px;
+        min-width: 90%;
+        height: 20px;
+    }
+    .card p {
+        font-size: 1.9vw;
+    }
+    #card1 {
+        height: 34.177vw;
+    }
+    #card1 img {
+        height: 10vw;
+        margin: 3.6vw auto;
+    }
+    .card h3 {
+        font-size: 2.1vw;
+    }
+    #lst-item>ul {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    /* header  */
+    .header {
+        height: 50px;
+    }
+    #ml span {
+        display: inline-block;
+        margin-top: 11px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .icon>img {
+        padding-top: 5px;
+        margin-left: 40px;
+        margin-top: -5px;
+        height: 30px;
+    }
+    .btn {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0px;
+        margin-top: -26px;
+    }
+    .btn div input {
+        margin: 2px 1px;
+        padding: 3px 20px;
+    }
+    
+    #sign-in {
+        margin-right: 10px;
+    }
+    #cs-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #cs-card {
+        max-width: 160px;
+        margin: 3vw 7vw;
+        height: 210px;
+        border-radius: 8px;
+        margin: 20px 10px;
+    }
+    .course-container div img {
+        height: auto;
+        max-width: 160px;
+    }
+    .course-H h1 {
+        font-size: 4vw;
+    }
+    .course-H p {
+        font-size: 2vw;
+    }
+    #cs-container div h2 {
+        margin: 4px;
+        font-size: 1.2rem;
+        background-color: white;
+        text-align: center;
+    }
+    #cs-container div input {
+        margin: 9px 3px;
+        padding: 6px 44px 8px 50px;
+    }
+    #cs-card p {
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
+        padding: 5px;
+    }
+    #cs-card p>ins {
+        color: green;
+    }
+    /* navbar  */
+    #wave {
+        margin: -3px auto;
+    }
+    #footer-part1 img {
+        height: 20px;
+        margin: 0px 15px;
+        margin-top: 22px;
+        position: absolute;
+    }
+    #footer-part1 {
+        margin-left: 0px;
+        margin-top: -20px;
+        padding: 0px;
+    }
+    #footer-part1 h3 {
+        margin-top: 70px;
+        text-align: center;
+        margin-left: -21px;
+        font-size: 5vw;
+    }
+    #footer-part1 p {
+        margin-top: -10px;
+        margin-left: 21px;
+    }
+    #footer-list {
+        max-width: 33.5;
+        float: left;
+    }
+    #footer-part2,
+    #footer-part3 {
+        padding: 40px 13px;
+        font-size: 4vw;
+    }
+    #footer-part4 {
+        display: none;
+    }
+    /* job section  */
+    #job-section {
+        padding: 10px 2px;
+    }
+    .job-detail p {
+        font-size: 2vw;
+    }
+    .job-detail h2 {
+        font-size: 4vw;
+    }
+    .job-btn {
+        margin: 2vw;
+        padding: 1.2vw 2vw;
+        font-size: 2.6vw;
+    }
+    #job-card1 {
+        padding: 10px;
+        margin: 10px 0px;
+    }
+    #job-card1 p {
+        color: #000000;
+        font-weight: 600;
+    }
+    #job-card1 img {
+        margin-top: 50px;
+        margin-left: 5px;
+        width: 80%;
+    }
+    #job-card3 img {
+        margin-top: 50px;
+        margin-left: 15px;
+        width: 100%;
+    }
+}

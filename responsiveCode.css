@@ -1,0 +1,223 @@
+/* navbar  */
+
+#navbar1 {
+    padding-top: 100px;
+}
+
+.lst-item>a {
+    font-size: 3.2vw;
+}
+
+.imgslide img {
+    height: 52vw;
+}
+
+#card-container {
+    margin-top: -12vw;
+    padding-left: 1%;
+}
+
+.card {
+    padding: 0px;
+    min-width: 90%;
+    height: 20px;
+}
+
+.card p {
+    font-size: 1.9vw;
+}
+
+#card1 {
+    height: 34.177vw;
+}
+
+#card1 img {
+    height: 10vw;
+    margin: 3.6vw auto;
+}
+
+.card h3 {
+    font-size: 2.1vw;
+}
+
+#lst-item>ul {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+
+/* header  */
+
+.header {
+    height: 50px;
+}
+
+#ml span {
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.icon>img {
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: -5px;
+    height: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+    margin-top: -26px;
+}
+
+.btn div input {
+    margin: 2px 1px;
+    padding: 3px 20px;
+}
+
+#sign-in {
+    margin-right: 10px;
+}
+
+#cs-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#cs-card {
+    max-width: 160px;
+    margin: 3vw 7vw;
+    height: 210px;
+    border-radius: 8px;
+}
+
+.course-container div img {
+    height: auto;
+    max-width: 160px;
+}
+
+.course-H h1 {
+    font-size: 4vw;
+}
+
+.course-H p {
+    font-size: 2vw;
+}
+
+#cs-container div h2 {
+    margin: 4px;
+    font-size: 1.2rem;
+    background-color: white;
+    text-align: center;
+}
+
+#cs-container div input {
+    margin: 9px 3px;
+    padding: 6px 44px 8px 50px;
+}
+
+#cs-card p {
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 5px 24px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+#cs-card p>ins {
+    color: green;
+}
+
+
+/* navbar  */
+
+#wave {
+    margin: -3px auto;
+}
+
+#footer-part1 img {
+    height: 20px;
+    margin: 0px 15px;
+    margin-top: 22px;
+    position: absolute;
+}
+
+#footer-part1 {
+    margin-left: 0px;
+    margin-top: -20px;
+    padding: 0px;
+}
+
+#footer-part1 h3 {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: -21px;
+    font-size: 5vw;
+}
+
+#footer-part1 p {
+    margin-top: -10px;
+    margin-left: 21px;
+}
+
+#footer-list {
+    max-width: 33.5;
+    float: left;
+}
+
+#footer-part2,
+#footer-part3 {
+    padding: 40px 13px;
+    font-size: 4vw;
+}
+
+#footer-part4 {
+    display: none;
+}
+
+
+/* job section  */
+
+#job-section {
+    padding: 10px 2px;
+}
+
+.job-detail p {
+    font-size: 2vw;
+}
+
+.job-detail h2 {
+    font-size: 4vw;
+}
+
+.job-btn {
+    margin: 2vw;
+    padding: 1.2vw 2vw;
+    font-size: 2.6vw;
+}
+
+#job-card1 {
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+#job-card1 p {
+    color: #000000;
+    font-weight: 600;
+}
+
+#job-card1 img {
+    margin-top: 50px;
+    margin-left: 5px;
+    width: 80%;
+}
+
+#job-card3 img {
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 100%;
+}
