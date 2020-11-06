@@ -2,8 +2,6 @@
     width: 100%;
     opacity: 60%;
 }
-
-
 /* JON SEARCH BAR start */
 
 #job-Search-bar {
@@ -147,6 +145,9 @@
 .job-element p {}
 
 @media screen and (max-width:600px) {
+    #contact-form{
+        display: inline-block;
+    }
     .job-grid-container {
         grid-template-columns: 1fr;
     }
@@ -223,7 +224,7 @@
 
 .contact-form {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 2fr;
 }
 
 .form-info {
@@ -280,23 +281,4 @@ textarea {
     background-color: blueviolet;
     color: #ffffff;
     cursor: pointer;
-}
-
-.team-card img {
-    height: 12vw;
-    margin: 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-.our-team {
-    text-align: center;
-    font-size: 2vw;
-    margin: 20px;
-    text-decoration: underline;
-}
-
-.team-card p {
-    padding: 20px;
-    text-align: center;
 }

@@ -4,9 +4,9 @@
 
 .story-section h1 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 5vw;
     margin: 10px;
-    text-decoration: underline;
+    text-decoration: underline red;
 }
 
 .story-section p {
@@ -15,8 +15,7 @@
 }
 
 .team-members {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display:block;
 }
 
 .team-card {
@@ -24,6 +23,48 @@
     border-radius: 6px;
     box-shadow: darkgrey 0px 0px 12px;
     margin: 10px;
+    height: 100px;
+}
+
+.team-card img {
+    height: 12vw;
+    margin: 10px;
+    margin-top: 15px;
+    width: 60px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-card ul>li{
+    list-style-type: none;
+    float: left;
+    margin-left: 100px;
+    margin-right: -70px;
+    
+}
+.team-card h2{
+    position: absolute;
+    left: 50%;
+    text-decoration: underline;
+    font-size: 4vw;
+    margin: -55px;
+    margin-left: -72px;
+}
+
+.our-team {
+    text-align: center;
+    font-size: 5vw;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+.team-card p {
+    margin-top: -33px;
+    position: absolute;
+    text-align: center;
+    margin-left: 94px;
+
 }
 
 
@@ -135,23 +176,4 @@ textarea {
     background-color: blueviolet;
     color: #ffffff;
     cursor: pointer;
-}
-
-.team-card img {
-    height: 12vw;
-    margin: 10px;
-    align-items: center;
-    justify-content: center;
-}
-
-.our-team {
-    text-align: center;
-    font-size: 2vw;
-    margin: 20px;
-    text-decoration: underline;
-}
-
-.team-card p {
-    padding: 20px;
-    text-align: center;
 }
