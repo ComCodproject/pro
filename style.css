@@ -583,6 +583,9 @@ footer {
     }
     #card1 {
         height: 34.177vw;
+        margin-top: 20px;
+        margin-left: 4px;
+        
     }
     #card1 img {
         height: 10vw;
