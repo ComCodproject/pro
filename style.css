@@ -550,7 +550,7 @@ footer {
 /* subject details */
 
 #sub-detail {
-    height: 120px;
+    height: auto;
 }
 
 #sub-heading h1 {
