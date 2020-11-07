@@ -51,6 +51,7 @@
         margin-left: 30%;
         margin-top: -77px;
     }
+
     #team-card p {
         margin-top: 57px;
         text-align: center;
@@ -99,7 +100,6 @@
     margin: 20px;
     text-decoration: underline;
 }
-
 .team-card p {
     margin-top: 60px;
     /* text-align: center; */
