@@ -27,11 +27,11 @@
 }
 
 .team-card img {
-    height: 12vw;
+    height: 19vw;
     margin: 10px;
     margin-top: 15px;
     width: 60px;
-    border-radius: 50%;
+    border-radius: 15%;
     align-items: center;
     justify-content: center;
 }
@@ -44,12 +44,11 @@
     
 }
 .team-card h2{
-    position: absolute;
-    left: 50%;
     text-decoration: underline;
     font-size: 4vw;
     margin: -55px;
-    margin-left: -72px;
+    margin-left: 30%;
+    margin-top: -77px;
 }
 
 .our-team {
@@ -60,10 +59,10 @@
 }
 
 .team-card p {
-    margin-top: -33px;
-    position: absolute;
+    margin-top: 57px;
     text-align: center;
-    margin-left: 94px;
+    margin-left: -29px;
+    margin-bottom: 6px;
 
 }
 
@@ -129,16 +128,7 @@
     letter-spacing: 2px;
 }
 
-input {
-    padding: 10px;
-    margin: 10px;
-    width: 70%;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border-left: 8px solid steelblue;
-    outline: none;
-    box-shadow: 0px 2px 7px #b5b5;
-}
+
 
 input::placeholder {
     color: #000000;
