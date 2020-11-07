@@ -44,7 +44,7 @@
 .btn div input {
     margin: -2px 1px;
     padding: 6px 40px;
-    position: arelative;
+    position: relative;
     background-color: #f99977;
     border-radius: 6px;
     box-shadow: #f9997773 0px 1px 4px;
@@ -52,7 +52,6 @@
     color: white;
     cursor: pointer;
 }
-
 #sign-in {
     margin-right: 20px;
 }
@@ -149,7 +148,7 @@
     height: 17.203vw;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    background-color: ivory;
+    background-color: #ffffff;
     align-items: center;
     text-align: center;
 }
@@ -693,7 +692,7 @@ footer {
         font-size: 5vw;
     }
     #footer-part1 p {
-        margin-top: -10px;
+        margin-top: 5px;
         margin-left: 21px;
     }
     #footer-list {
