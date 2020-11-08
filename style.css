@@ -658,7 +658,7 @@ footer {
     }
     #ml span {
         display: inline-block;
-        margin-top: 11px;
+        margin-top: 3px;
         margin-left: 10px;
         font-size: 20px;
         font-weight: bold;
@@ -666,7 +666,7 @@ footer {
     }
     .icon>img {
         padding-top: 5px;
-        margin-left: 64px;
+        margin-left:49px;
         margin-top: -5px;
         height: 30px;
     }
@@ -674,7 +674,7 @@ footer {
         display: flex;
         justify-content: flex-end;
         margin-right: 0px;
-        margin-top: -45px;
+        margin-top: -41px;
     }
     .btn div input {
         margin: 2px 1px;
