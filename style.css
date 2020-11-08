@@ -8,7 +8,7 @@
 .icon img {
     height: 29px;
     position: fixed;
-    margin-left: 46px;
+    margin-left: 90px;
     margin-top: -1px;
 }
 
@@ -23,9 +23,7 @@
 
 .ml span {
     display: inline-block;
-    margin-top: 14px;
-    font-size: 25px;
-    margin-left: 10px;
+    margin: 10px 36px;
 }
 
 .icon>h2 {
@@ -38,13 +36,13 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
-    margin-top: -28px;
+    margin-top: -40px;
 }
 
 .btn div input {
     margin: -2px 1px;
     padding: 6px 40px;
-    position: relative;
+    position: arelative;
     background-color: #f99977;
     border-radius: 6px;
     box-shadow: #f9997773 0px 1px 4px;
@@ -52,9 +50,66 @@
     color: white;
     cursor: pointer;
 }
+
 #sign-in {
     margin-right: 20px;
 }
+
+
+/* side navbar start */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    line-height: 2.5;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 1px 0px 30px #aeaeae;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 0px 0px 0px 75px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #ffd4a9;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#mySidenav img {
+    height: 3.8vh;
+    margin: 2.7vh 8vh
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* side navbar End */
 
 
 /* header responsive end*/
@@ -148,7 +203,7 @@
     height: 17.203vw;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    background-color: #ffffff;
+    background-color: ivory;
     align-items: center;
     text-align: center;
 }
@@ -243,12 +298,13 @@
     margin: 11px 28px;
     padding: 5px 69px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .course-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
+    justify-items: center;
 }
 
 @media screen and (max-width:1280px) {
@@ -577,7 +633,6 @@ footer {
         min-width: 90%;
         height: 20px;
     }
-    
     .card p {
         font-size: 2.1vw;
     }
@@ -585,7 +640,6 @@ footer {
         height: 34.177vw;
         margin-top: 20px;
         margin-left: 4px;
-        
     }
     #card1 img {
         height: 10vw;
@@ -612,7 +666,7 @@ footer {
     }
     .icon>img {
         padding-top: 5px;
-        margin-left: 40px;
+        margin-left: 64px;
         margin-top: -5px;
         height: 30px;
     }
@@ -620,13 +674,12 @@ footer {
         display: flex;
         justify-content: flex-end;
         margin-right: 0px;
-        margin-top: -26px;
+        margin-top: -45px;
     }
     .btn div input {
         margin: 2px 1px;
         padding: 3px 20px;
     }
-
     #sign-in {
         margin-right: 10px;
     }
@@ -636,10 +689,10 @@ footer {
     }
     #cs-card {
         max-width: 160px;
-        margin: 3vw 7vw;
-        height: 210px;
-        border-radius: 8px;
-        margin: 20px 10px;
+        height: 205px;
+        margin: 18px 8zpx;
+        display: grid;
+        align-items: center;
     }
     .course-container div img {
         height: auto;
@@ -658,8 +711,10 @@ footer {
         text-align: center;
     }
     #cs-container div input {
-        margin: 9px 3px;
-        padding: 6px 44px 8px 50px;
+        margin: 10px 22px;
+        padding: 4px 0px;
+        font-size: 13px;
+        font-weight: bold;
     }
     #cs-card p {
         text-align: center;
@@ -669,6 +724,7 @@ footer {
     }
     #cs-card p>ins {
         color: green;
+        font-weight: lighter;
     }
     /* navbar  */
     #wave {
@@ -692,7 +748,7 @@ footer {
         font-size: 5vw;
     }
     #footer-part1 p {
-        margin-top: 5px;
+        margin-top: -10px;
         margin-left: 21px;
     }
     #footer-list {

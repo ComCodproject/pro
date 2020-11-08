@@ -17,8 +17,20 @@
         <header class="header">
 
             <div class="ml" id="ml">
-                <span class="menulines" onclick="opennav()">&#9776</span>
+
+                <div id="mySidenav" class="sidenav">
+                    <img src="img/logo.png" alt="logo">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="courses.html" onclick="clickcourses()" onclick="clickon()">Courses &nbsp </a>
+                    <a href="job-portal.html">Jobs &nbsp</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             </div>
+            <!-- side menu END  -->
 
             <form action="#" method="post">
                 <span class="icon">

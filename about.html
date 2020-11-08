@@ -16,8 +16,20 @@
         <header class="header">
 
             <div class="ml" id="ml">
-                <span class="menulines" onclick="opennav()">&#9776</span>
+
+                <div id="mySidenav" class="sidenav">
+                    <img src="img/logo.png" alt="logo">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="courses.html" onclick="clickcourses()" onclick="clickon()">Courses &nbsp </a>
+                    <a href="job-portal.html">Jobs &nbsp</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             </div>
+            <!-- side menu END  -->
 
             <form action="#" method="post">
                 <span class="icon">
@@ -40,9 +52,9 @@
         <div class="navbar" id="navbar1">
             <ul class="menuitem">
                 <li class="lst-item" id="lst1-item"><a href="index.html">Home</a></li>
-                <li class="lst-item" id="lst-item"><a href="courses.html" >Courses &nbsp <i class="fa fa-caret-down" id="in"></i></a>
-                </li> 
-                <li class="lst-item" id="ls-item"><a href="job-portal.html" >Jobs &nbsp<i class="fa fa-caret-down"></i></a>
+                <li class="lst-item" id="lst-item"><a href="courses.html">Courses &nbsp <i class="fa fa-caret-down" id="in"></i></a>
+                </li>
+                <li class="lst-item" id="ls-item"><a href="job-portal.html">Jobs &nbsp<i class="fa fa-caret-down"></i></a>
                 </li>
                 <li class="lst-item"><a href="about.html">About</a></li>
                 <li class="lst-item"><a href="contact.html">Contact</a></li>
@@ -52,7 +64,7 @@
         <!--It is complete body-->
 
         <div class="body">
-            
+
             <div class="imgslide">
                 <img src="img/ComCod_template.png" width="100%" ; height="300px" ; alt="slide1">
             </div>
@@ -73,7 +85,7 @@
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="https://www.instagram.com/akashpundir931/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
+                    </ul>
                 </div>
                 <div class="team-card" id="team-card">
                     <img src="img/user.png">
@@ -83,7 +95,7 @@
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
+                    </ul>
                 </div>
 
                 <div class="team-card" id="team-card">
@@ -94,7 +106,7 @@
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
+                    </ul>
                 </div>
                 <div class="team-card" id="team-card">
                     <img src="img/user.png">
@@ -104,7 +116,7 @@
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        </ul>
+                    </ul>
                 </div>
             </section>
 

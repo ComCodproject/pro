@@ -14,11 +14,22 @@
     <div class="container">
 
         <header class="header">
-
+            <!-- side navbar start  -->
             <div class="ml" id="ml">
-                <span class="menulines" onclick="opennav()">&#9776</span>
-            </div>
 
+                <div id="mySidenav" class="sidenav">
+                    <img src="img/logo.png" alt="logo">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="courses.html" onclick="clickcourses()" onclick="clickon()">Courses &nbsp </a>
+                    <a href="job-portal.html">Jobs &nbsp</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            <!-- side menu END  -->
             <form action="#" method="post">
                 <span class="icon">
                     <img src="img/logo.png" alt="logo">
@@ -27,7 +38,7 @@
                     <div id="sign-in">
                         <input type="button" value="sign-up" name="sign-up">
                     </div>
-                    <div id="sign-in" class="login">
+                    <div id="sign-in">
                         <input type="button" value="Login" name="Login">
                     </div>
                 </div>
@@ -39,6 +50,7 @@
         </header>
         <div class="navbar" id="navbar1">
             <ul class="menuitem">
+
                 <li class="lst-item" id="lst1-item"><a href="index.html">Home</a></li>
                 <li class="lst-item" id="lst-item"><a href="courses.html" onclick="clickcourses()" onclick="clickon()">Courses &nbsp <i class="fa fa-caret-down" id="in"></i></a>
                     <ul id="course-item">
@@ -115,7 +127,7 @@
                         <p><del>Rs.1499/-</del>&nbsp<ins>FREE/-</ins></p>
                         <input type="button" value="See more.." name="See more..">
                     </div>
-            
+
                     <div class="course-card" id="cs-card">
                         <img src="img/Pyhon Advance.jpg" alt="Pyhon Advance">
                         <h2>Python Advance</h2>
@@ -197,12 +209,7 @@
                 <div class="sub-heading" id="sub-heading">
                     <h1>Technical Courses</h1>
                     <p>All type of technical courses are available now.</p>
-                    <p>Computer Science.<br>
-                        Aerospace engineering.<br>
-                        Electrical engineering.<br>
-                        Mechanical engineering.<br>
-                        Civil engineering.<br>
-                        Biomedical engineering.</p>
+                    <p>Computer Science.<br> Aerospace engineering.<br> Electrical engineering.<br> Mechanical engineering.<br> Civil engineering.<br> Biomedical engineering.</p>
                     <!-- <p>Course About<br>Course About<br>Course About<br>Course About<br></p> -->
                 </div>
             </div>
