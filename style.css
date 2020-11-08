@@ -690,7 +690,7 @@ footer {
     #cs-card {
         max-width: 160px;
         height: 205px;
-        margin: 18px 8zpx;
+        margin: 18px 8px;
         display: grid;
         align-items: center;
     }
