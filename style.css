@@ -668,13 +668,13 @@ footer {
         padding-top: 5px;
         margin-left:49px;
         margin-top: -5px;
-        height: 30px;
+        height: 28px;
     }
     .btn {
         display: flex;
         justify-content: flex-end;
         margin-right: 0px;
-        margin-top: -41px;
+        margin-top: -36px;
     }
     .btn div input {
         margin: 2px 1px;
